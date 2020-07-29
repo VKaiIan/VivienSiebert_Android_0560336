@@ -1,0 +1,8 @@
+I have not kept a daily diary.
+
+I allready had some programming knowledge in Java and Xcode(iOS).
+But I wanted to know whats the different between iOS and Android programming, but there is not much difference.
+Throughout my study in Finnland I gained much more knowledge and I was able to use this programming skill for this course.
+So I tried my best and created a usefull app I would like to have for myself (we are just ignoring the fact that I am an Apple user).
+
+Pushing the project to Github was easy with a video and it also worked very well.
