@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/snow"
+    android:backgroundTint="@color/snow"
+    tools:context=".TimeTableActivity">
+
+    <Button
+        android:id="@+id/mondaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lavender"
+        android:fontFamily="@font/amita_bold"
+        android:text="MONDAY"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/tuesdaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tuesdaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/navajowhite"
+        android:fontFamily="@font/amita_bold"
+        android:text="TUESDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/wednesdaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mondaybutton" />
+
+    <Button
+        android:id="@+id/wednesdaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lightcyan"
+        android:fontFamily="@font/amita_bold"
+        android:text="WEDNESDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/thursdaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesdaybutton" />
+
+    <Button
+        android:id="@+id/thursdaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lightgolden"
+        android:fontFamily="@font/amita_bold"
+        android:text="THURSDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/fridaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wednesdaybutton" />
+
+    <Button
+        android:id="@+id/fridaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/honeydew"
+        android:fontFamily="@font/amita_bold"
+        android:text="FRIDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/saturdaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thursdaybutton" />
+
+    <Button
+        android:id="@+id/saturdaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/linen"
+        android:fontFamily="@font/amita_bold"
+        android:text="SATURDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/sundaybutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fridaybutton" />
+
+    <Button
+        android:id="@+id/sundaybutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/lavenderblush"
+        android:fontFamily="@font/amita_bold"
+        android:text="SUNDAY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saturdaybutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
